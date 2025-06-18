@@ -1,12 +1,12 @@
 trigger:
- -main
+ - main
 pool:
  vmImage: 'ubuntu-latest'
 steps:
--script: echo "Running pipeline"
+- script: echo "Running pipeline"
  displayName: 'Print Hello'
--script: |
+- script: |
   echo "Installing dependencies"
   sleep 2
-  echo "Build complete "
+  echo "Build complete"
 displayName: 'Simulate Build'
