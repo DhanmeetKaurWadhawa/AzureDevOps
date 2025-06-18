@@ -5,8 +5,5 @@ pool:
 steps:
 - script: echo "Running pipeline"
   displayName: 'Print Hello'
-- script: |
-  echo "Installing dependencies"
-  sleep 2
-  echo "Build complete"
-displayName: 'Simulate Build'
+- script: echo "Build complete"
+  displayName: 'Simulate Build'
